@@ -1,0 +1,105 @@
+/*
+
+ GLOBAL STYLES 
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+header {
+    width: 100%;
+    text-align: right;
+    margin-bottom: 50px;
+}
+header h1 {
+    font-size: 3em;
+    padding: 20px 30px 50px 0;
+}
+
+nav {
+    text-align: center;
+}
+
+header nav a {
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 1.6em;
+    line-height: 1.5em;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+*/
+
+
+
+
+/* GLOBAL STYLES */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+header nav {
+  display: none;
+}
+
+body {
+  /*background-color: #e74;*/
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+header h1 {
+    font-size: 3em;
+    padding: 14px 30px 20px 0;
+    /*color: #f3f3d3;*/
+    text-decoration: underline;
+}
+
+nav {
+    text-align: center;
+}
+
+header nav a {
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 1.6em;
+    line-height: 1.5em;
+}
+
+main {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.tabs p, .tabs ul, .tabs h2 {
+  margin-bottom: 25px;
+}
+
+h2 {
+  font-size: 1.8em;
+  text-decoration: underline;
+  
+}
+
+.tabs h4:before {
+  content: '-- ';
+}
+
+
+@media screen and (max-width: 500px) {
+  * {
+      font-size: 12px;  
+  }
+  
+}
